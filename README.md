@@ -4,7 +4,7 @@ An interactive bank card UI built with HTML, Tailwind CSS, and JavaScript. This 
 ---
 
 ## 🔗 Live Demo  
-[View Bank Card]() ✨
+[View Bank Card](https://sensational-moonbeam-455712.netlify.app/) ✨
 
 ---
 
@@ -15,12 +15,12 @@ An interactive bank card UI built with HTML, Tailwind CSS, and JavaScript. This 
 - Responsive layout using Tailwind CSS  
 - Smooth transitions and 3D transform effects  
 - Modular JavaScript for dynamic data updates  
-- Styled card with gradients, shadows, and hover effects  
+- Styled card with shadows and hover effects  
 
 ---
 
 ### 👩‍💻 About the Project  
-This bank card UI was created to explore interactive design and animation in JavaScript. I wanted to build something that feels modern and functional—like a digital wallet preview. It helped me dive deeper into CSS transforms, event listeners, and dynamic DOM updates. Plus, it’s just cool to see the card flip like that!
+This bank card UI was created to explore interactive design and animation in JavaScript. I wanted to build something that feels modern and functional—like a digital wallet preview. It helped me dive deeper into CSS transforms, event listeners, and dynamic DOM updates.
 
 ---
 
@@ -39,3 +39,5 @@ This bank card UI was created to explore interactive design and animation in Jav
 ---
 
 ### 📸 Screenshots  
+
+![Screenshot_27-9-2025_81150_127 0 0 1](https://github.com/user-attachments/assets/d4863fd4-b448-4574-9394-e14af014acd1)
