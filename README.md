@@ -15,12 +15,12 @@ An interactive bank card UI built with HTML, Tailwind CSS, and JavaScript. This 
 - Responsive layout using Tailwind CSS  
 - Smooth transitions and 3D transform effects  
 - Modular JavaScript for dynamic data updates  
-- Styled card with gradients, shadows, and hover effects  
+- Styled card with shadows and hover effects  
 
 ---
 
 ### 👩‍💻 About the Project  
-This bank card UI was created to explore interactive design and animation in JavaScript. I wanted to build something that feels modern and functional—like a digital wallet preview. It helped me dive deeper into CSS transforms, event listeners, and dynamic DOM updates. Plus, it’s just cool to see the card flip like that!
+This bank card UI was created to explore interactive design and animation in JavaScript. I wanted to build something that feels modern and functional—like a digital wallet preview. It helped me dive deeper into CSS transforms, event listeners, and dynamic DOM updates.
 
 ---
 
@@ -39,3 +39,4 @@ This bank card UI was created to explore interactive design and animation in Jav
 ---
 
 ### 📸 Screenshots  
+![Screenshot_27-9-2025_21150_127 0 0 1](https://github.com/user-attachments/assets/97a75849-8474-4fb3-b362-fb3f2aac0696)
