@@ -32,22 +32,22 @@
                 <img class="object-cover w-full h-full" src="assets/img/Mancard-Pas-Etick-way2pay-index-93-08-08.jpg"
                     alt="">
                 <div class="w-full h-fit flex flex-wrap justify-center items-center z-20 absolute top-[56%] left-0">
-                    <div
+                    <div id="cardInp1"
                         class="w-full h-fit pb-5 flex justify-evenly items-center *:w-1/5 *:border-2 *:bg-[#d0b40066] *:rounded-[5px] *:px-1.5">
-                        <input type="text">
-                        <input type="text">
-                        <input type="text">
-                        <input type="text">
+                        <input class="text-white" id="cardNum1" type="text">
+                        <input class="text-white" id="cardNum2" type="text">
+                        <input class="text-white" id="cardNum3" type="text">
+                        <input class="text-white" id="cardNum4" type="text">
                     </div>
-                    <div
+                    <div id="cardInp2"
                         class="w-full h-[20px] flex justify-center gap-x-1 items-center *:w-[60px] *:border-2 *:border-[#d0b400] *:rounded-[5px] *:flex *:justify-center *:items-center *:placeholder:text-[14px] *:px-1.5 text-white scale-[.9] pb-[25px]">
-                        <input type="text">/
-                        <input type="text">
+                        <input class="text-white" id="year1" type="text">/
+                        <input class="text-white" id="month1" type="text">
                     </div>
                 </div>
             </figure>
 
-            <!-- Back -->
+            <!-- back -->
             <div
                 class="absolute w-full h-full backface-hidden rotate-y-180 bg-amber-100 rounded-[8px] flex justify-center flex-wrap">
                 <div class="w-full h-[50px] bg-black mt-[20px]"></div>
@@ -65,19 +65,19 @@
             <span class="material-symbols-outlined text-[#d0b400] scale-[.8]">line_start_diamond</span>
             <h2 class="py-2.5 text-[#d0b400] font-bold text-center px-1 text-[14px]">شماره کارت</h2>
             <span class="material-symbols-outlined text-[#d0b400] scale-[.8]">line_end_diamond</span>
-            <div
+            <div id="Inp1"
                 class="w-full h-fit pb-5 flex justify-evenly items-center *:w-1/5 *:border-2 *:border-[#d0b400] *:rounded-[5px] *:px-1.5 border-b border-b-[#d0b400]">
-                <input type="number">
-                <input type="number">
-                <input type="number">
-                <input type="number">
+                <input id="num1" type="number">
+                <input id="num2" type="number">
+                <input id="num3" type="number">
+                <input id="num4" type="number">
             </div>
 
             <div class="w-1/2 h-fit flex flex-wrap justify-center items-center">
                 <span class="material-symbols-outlined text-[#d0b400] scale-[.8]">line_start_diamond</span>
                 <h2 class="py-2.5 text-[#d0b400] font-bold text-center px-1 text-[14px]">CVV2</h2>
                 <span class="material-symbols-outlined text-[#d0b400] scale-[.8]">line_end_diamond</span>
-                <div
+                <div id="cvv2"
                     class="w-full h-fit flex justify-center gap-x-1 items-center *:w-[60px] *:border-2 *:border-[#d0b400] *:rounded-[5px] *:flex *:justify-center *:items-center *:placeholder:text-[14px] *:px-1.5">
                     <input type="number">
                 </div>
@@ -87,10 +87,10 @@
                 <span class="material-symbols-outlined text-[#d0b400] scale-[.8]">line_start_diamond</span>
                 <h2 class="py-2.5 text-[#d0b400] font-bold text-center px-1 text-[14px]">تاریخ انقضا</h2>
                 <span class="material-symbols-outlined text-[#d0b400] scale-[.8]">line_end_diamond</span>
-                <div
+                <div id="Inp2"
                     class="w-full h-fit flex justify-center gap-x-1 items-center *:w-[60px] *:border-2 *:border-[#d0b400] *:rounded-[5px] *:flex *:justify-center *:items-center *:placeholder:text-[14px] *:px-1.5">
-                    <input type="number" placeholder="سال">
-                    <input type="number" placeholder="ماه">
+                    <input id="year" type="number" placeholder="سال">
+                    <input id="month" type="number" placeholder="ماه">
                 </div>
             </div>
             <!-- ----------------------------button------------------------------ -->
@@ -102,5 +102,9 @@
         </div>
     </main>
 </body>
+<script>
+    
+
+</script>
 
 </html>
