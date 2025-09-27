@@ -3,18 +3,26 @@
 /* npx @tailwindcss/cli -i ./src/style/master.css -o ./src/style/output.css --watch */
 
 .mainBg {
-    background: #f0eded;
-    background: radial-gradient(circle, rgba(240, 237, 237, 1) 0%, rgba(50, 150, 80, 1) 48%);
+    background: #089863;
+    background: radial-gradient(circle, rgba(8, 152, 99, 1) 59%, rgba(255, 255, 255, 0) 70%, rgba(8, 152, 99, 1) 92%);
+}
+
+.myShadow {
+    box-shadow: 0 0 10px white;
+}
+
+.myFont {
+    font-family: "Rubik", sans-serif;
 }
 
 .perspective {
-  perspective: 1000px;
+    perspective: 1000px;
 }
 
 .card {
-  transform-style: preserve-3d;
+    transform-style: preserve-3d;
 }
 
 .backface-hidden {
-  backface-visibility: hidden;
+    backface-visibility: hidden;
 }
