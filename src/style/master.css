@@ -6,3 +6,15 @@
     background: #f0eded;
     background: radial-gradient(circle, rgba(240, 237, 237, 1) 0%, rgba(50, 150, 80, 1) 48%);
 }
+
+.perspective {
+  perspective: 1000px;
+}
+
+.card {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
