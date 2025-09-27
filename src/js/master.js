@@ -12,12 +12,25 @@ const cvv = document.getElementById('cvv')
 const Inp1 = document.querySelectorAll('#Inp1>input')
 const Inp2 = document.querySelectorAll('#Inp2>input')
 const cvv2 = document.querySelector('#cvv2>input')
+let card1 = document.querySelector('main>figure')
+
 // -----------------card number---------------------
 Inp1.forEach((val, index) => {
     val.addEventListener('keyup', e => {
         if (val.value.length >= 4) {
             val.value = val.value.slice(0, 4);
-            (index != 3) ? val.nextElementSibling.focus() : cvv2.focus()
+            if (index != 3) {
+                val.nextElementSibling.focus()
+            } else {
+                cardNum1.style.display = 'none'
+                cardNum2.style.display = 'none'
+                cardNum3.style.display = 'none'
+                cardNum4.style.display = 'none'
+                year1.style.display = 'none'
+                month1.style.display = 'none'
+                card1.style.transform = 'rotateY(180deg)'
+                cvv2.focus()
+            }
         } else if (val.value.length == 0) {
             if ((index != 0) && (e.keyCode == 8)) {
                 val.previousElementSibling.focus()
@@ -35,6 +48,13 @@ cvv2.addEventListener('keyup', e => {
     if (cvv2.value.length >= 3) {
         cvv2.value = cvv2.value.slice(0, 3);
         Inp2[0].focus()
+        card1.style.transform = 'rotateY(0deg)'
+        cardNum1.style.display = 'block'
+        cardNum2.style.display = 'block'
+        cardNum3.style.display = 'block'
+        cardNum4.style.display = 'block'
+        year1.style.display = 'block'
+        month1.style.display = 'block'
         cvv.innerText = cvv2.value
     }
 
@@ -43,6 +63,15 @@ cvv2.addEventListener('keyup', e => {
 // -----------------expire date--------------------
 Inp2.forEach((val1, i1) => {
     val1.addEventListener('keyup', e => {
+
+        cardNum1.style.display = 'block'
+        cardNum2.style.display = 'block'
+        cardNum3.style.display = 'block'
+        cardNum4.style.display = 'block'
+        year1.style.display = 'block'
+        month1.style.display = 'block'
+        card1.style.transform = 'rotateY(0deg)'
+
         if (val1.value.length >= 2) {
             val1.value = val1.value.slice(0, 2)
 
