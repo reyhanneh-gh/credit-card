@@ -4,7 +4,7 @@ An interactive bank card UI built with HTML, Tailwind CSS, and JavaScript. This 
 ---
 
 ## 🔗 Live Demo  
-[View Bank Card](https://vocal-florentine-e67083.netlify.app/) ✨
+[View Bank Card](https://poetic-pie-891ee4.netlify.app/) ✨
 
 ---
 
