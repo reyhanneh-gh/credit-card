@@ -39,4 +39,5 @@ This bank card UI was created to explore interactive design and animation in Jav
 ---
 
 ### 📸 Screenshots  
-![Screenshot_27-9-2025_21150_127 0 0 1](https://github.com/user-attachments/assets/97a75849-8474-4fb3-b362-fb3f2aac0696)
+
+![Screenshot_27-9-2025_81150_127 0 0 1](https://github.com/user-attachments/assets/d4863fd4-b448-4574-9394-e14af014acd1)
