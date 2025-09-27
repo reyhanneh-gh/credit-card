@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* npx @tailwindcss/cli -i ./src/style/master.css -o ./src/style/output.css --watch */
+
+.mainBg {
+    background: #f0eded;
+    background: radial-gradient(circle, rgba(240, 237, 237, 1) 0%, rgba(50, 150, 80, 1) 48%);
+}
