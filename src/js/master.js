@@ -11,6 +11,7 @@ const cvv = document.getElementById('cvv')
 // -------------------main inputs--------------------
 const Inp1 = document.querySelectorAll('#Inp1>input')
 const Inp2 = document.querySelectorAll('#Inp2>input')
+const sp = document.querySelector('#cardInp2>span')
 const cvv2 = document.querySelector('#cvv2>input')
 let card1 = document.querySelector('main>figure')
 
@@ -22,12 +23,13 @@ Inp1.forEach((val, index) => {
             if (index != 3) {
                 val.nextElementSibling.focus()
             } else {
-                cardNum1.style.display = 'none'
-                cardNum2.style.display = 'none'
-                cardNum3.style.display = 'none'
-                cardNum4.style.display = 'none'
-                year1.style.display = 'none'
-                month1.style.display = 'none'
+                cardNum1.style.opacity = '0'
+                cardNum2.style.opacity = '0'
+                cardNum3.style.opacity = '0'
+                cardNum4.style.opacity = '0'
+                sp.style.opacity = '0'
+                year1.style.opacity = '0'
+                month1.style.opacity = '0'
                 card1.style.transform = 'rotateY(180deg)'
                 cvv2.focus()
             }
@@ -48,13 +50,6 @@ cvv2.addEventListener('keyup', e => {
     if (cvv2.value.length >= 3) {
         cvv2.value = cvv2.value.slice(0, 3);
         Inp2[0].focus()
-        card1.style.transform = 'rotateY(0deg)'
-        cardNum1.style.display = 'block'
-        cardNum2.style.display = 'block'
-        cardNum3.style.display = 'block'
-        cardNum4.style.display = 'block'
-        year1.style.display = 'block'
-        month1.style.display = 'block'
         cvv.innerText = cvv2.value
     }
 
@@ -63,14 +58,17 @@ cvv2.addEventListener('keyup', e => {
 // -----------------expire date--------------------
 Inp2.forEach((val1, i1) => {
     val1.addEventListener('keyup', e => {
+        card1.style.transform = 'rotateY(0deg)';
+        setTimeout(() => {
+            cardNum1.style.opacity = '1'
+            cardNum2.style.opacity = '1'
+            cardNum3.style.opacity = '1'
+            cardNum4.style.opacity = '1'
+            year1.style.opacity = '1'
+            month1.style.opacity = '1'
+            sp.style.opacity = '1'
+        }, 100)
 
-        cardNum1.style.display = 'block'
-        cardNum2.style.display = 'block'
-        cardNum3.style.display = 'block'
-        cardNum4.style.display = 'block'
-        year1.style.display = 'block'
-        month1.style.display = 'block'
-        card1.style.transform = 'rotateY(0deg)'
 
         if (val1.value.length >= 2) {
             val1.value = val1.value.slice(0, 2)
