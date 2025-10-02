@@ -271,6 +271,12 @@
   .w-10\/12 {
     width: calc(10/12 * 100%);
   }
+  .w-11 {
+    width: calc(var(--spacing) * 11);
+  }
+  .w-11\/12 {
+    width: calc(11/12 * 100%);
+  }
   .w-fit {
     width: fit-content;
   }
