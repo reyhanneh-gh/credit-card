@@ -67,7 +67,7 @@ Inp2.forEach((val1, i1) => {
             year1.style.opacity = '1'
             month1.style.opacity = '1'
             sp.style.opacity = '1'
-        }, 100)
+        }, 500)
 
 
         if (val1.value.length >= 2) {
